@@ -1,1 +1,2 @@
-Just practicing commands
+Just practicing commands.
+Trying out Atom editor...seems like a great platform
