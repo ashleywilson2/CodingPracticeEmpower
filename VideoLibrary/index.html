@@ -2,11 +2,53 @@
 <html>
   <head>
     <title>Video Library</title>
-    <link href="stylesheet.css" rel="stylesheet" type="text/css">
+    <link href="CSS/menuss.css" rel="stylesheet" type="text/css">
+
+    <link href="https://fonts.googleapis.com/css?family=Handlee|Permanent+Marker" rel="stylesheet">
   </head>
 
   <body>
-    
+
+    <h1>Welcome to My Favorite YouTube Videos!</h1>
+
+    <dir style='float: center'>
+      <button class="accordion">Section 1</button>
+      <div class="panel">
+        <p>Lorem ipsum...</p>
+      </div>
+
+      <button class="accordion">Section 2</button>
+      <div class="panel">
+        <p>Lorem ipsum...</p>
+      </div>
+
+      <button class="accordion">Section 3</button>
+      <div class="panel">
+        <p>Lorem ipsum...</p>
+      </div>
+    </div>
+
+    <script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+      /* Toggle between adding and removing the "active" class,
+      to highlight the button that controls the panel */
+        this.classList.toggle("active");
+
+      /* Toggle between hiding and showing the active panel */
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+          panel.style.display = "none";
+        } else {
+          panel.style.display = "block";
+        }
+      });
+    }
+    </script>
+
   </body>
 
 </html>
