@@ -1,0 +1,46 @@
+<html>
+<head>
+  <title>API Poll</title>
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Poiret+One|Shadows+Into+Light" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+  <script src="js/jquery-3.3.1.min.js" type="text/javascript"></script>
+  <script src="script.js" type="text/javascript"></script>
+</head>
+<body>
+  <div class="background">
+    <div class="transbox">
+      <h1>Welcome to the Empower Voting Booth!</h1>
+    </div>
+  </div>
+  <br><br>
+  <div style="float: left;" id="button-div">
+    <button type="button" id="cast-my-vote">Cast My Vote!</button>
+    <button type="button" id="running-tally">Poll Tally</button>
+    <button type="button" id="API-types">Show API Names and IDs</button>
+    <button type="button" id="show-vote">Show Vote</button>
+    <button type="button" id="reset-vote">Reset Your Vote</button>
+  </div>
+
+  <br />
+  <br />
+  <br />
+
+  <div style="float:left;" id="container-div">
+    <table id="container-table">
+      <thead>
+        <th>Click the Buttons Above to See Your Results Below!</th>
+      </thead>
+      <tbody>
+        <tr id="data-container"></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      bindClickEvent();
+    });
+  </script>
+</body>
+</html>

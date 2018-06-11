@@ -1,0 +1,63 @@
+body {
+  background-color: rgb(195,195,195);
+  font-family: "Comfortaa",cursive;
+  font-weight: bold;
+  font-size: 18pt;
+}
+
+/*h1{
+  background-image: url("Images/polling-station.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+    margin-bottom: 32.160;
+    padding-bottom: 140px;
+    padding-left: 0px;
+    border-left-width: 100px;
+    height: 100px;
+    width: 500px;
+    padding-top: 75px;
+  color: white;
+}*/
+
+div.background {
+    background: url("Images/voting-pin.jpg") repeat;
+    border: 2px solid black;
+    opacity: 0.5;
+}
+
+div.transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.9;
+}
+
+div.transbox h1 {
+    margin: 5%;
+    font-weight: bold;
+    color: black;
+}
+
+button {
+  background-color: rgb(195,195,195);
+  outline: none;
+  padding: 3px 15px 3px 15px;
+  border: 3px solid #9E3B7E;
+  border-radius: 12px;
+  font-family: "Poiret One", cursive;
+  font-size: 24pt;
+  font-weight: bold;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+button:hover {
+  background-color: white;
+  border-color: white;
+  color: #9E3B7E;
+}
+
+#container-table {
+  border: 3px dotted #9E3B7E;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
