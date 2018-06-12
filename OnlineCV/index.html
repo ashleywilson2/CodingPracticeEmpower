@@ -1,38 +1,84 @@
 <html>
-	<head>
+<head>
 		<!--Need meta stuff to make Bootstrap work-->
 		<meta charset="utf-8">
   	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<title>Ashley Wilson CV</title>
 		<!--Links for CSS Styling: Bootstrap, My Sheet, Google Fonts -->
   	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-  	<link href="CVstyle.css" rel="stylesheet" type="text/css" />
+  	<link href="css/CVstyle.css" rel="stylesheet" type="text/css" />
+		<link href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Poiret+One|Shadows+Into+Light" rel="stylesheet">
+		<link href="css/docs.min.css" rel="stylesheet" type="text/css"/>
+
 		<!--JavaScript References: jQuery, Bootstrap, My JS -->
   	<script src="js/jquery-3.3.1.min.js" type="text/javascript"></script>
   	<script src="js/bootstrap.min.js" type="text/javascript"></script>
-  	<script src="script.js" type="text/javascript"></script>
-	</head>
-	<body>
-		<div class="hero-unit">
-			<div class="hero-unit__background">
+  	<script src="js/script.js" type="text/javascript"></script>
+</head>
+<body>
+
+	<div class="container">
+		<div class="row header transbox">
+			<div class="col-sm-4"><img src="Images/profile.jpg"></div>
+			<div class="col-sm-2"></div>
+			<div class="col-sm-6">
+				<h1>Ashley Wilson</h1>
+				<form>
+					Send me an email!
+  				<div class="form-group">
+    				<label for="exampleInputEmail1">Enter your email address</label>
+    				<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    				<small id="emailHelp" class="form-text text-muted"></small>
+  				</div>
+					<div class="form-group">
+    				<label for="exampleFormControlTextarea1">Write your message below:</label>
+    				<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  				</div>
+  				<div class="form-group form-check">
+    				<input type="checkbox" class="form-check-input" id="exampleCheck1">
+    				<label class="form-check-label" for="exampleCheck1">Check me out</label>
+  				</div>
+  				<button type="button" class="btn btn-primary">
+						Send
+					</button>
+				</form>
 			</div>
 		</div>
 
-		<div style="float: left;" class="left.column">
-			<img src="images/profile.jpg" alt="Profile Picture for CV" title="Ashley Wilson">
-		</div>
+	  <div class="row">
+	    <div class="col-sm-4 transbox">
+				<div class="pos-f-t">
+					<nav class="navbar navbar-light" style="background-color:#f9d7a4">
+						<h3>Sample Webpages</h3>
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+      				<span class="navbar-toggler-icon"></span>
+    				</button>
+  				</nav>
+  				<div class="collapse" id="navbarToggleExternalContent">
+    				<div class="p-4" style="background-color:#f9d7a4">
+      				<span class="text-muted">
+								<ul>
+									<li>KCLD Webpage</li>
+									<li>The Pickle Barrel</li>
+									<li></li>
+									<li></li>
+								</ul>
+							</span>
+    				</div>
+  				</div>
 
-		<div style="float: center;" class="middle.column">
-			<h1>Ashley Wilson</h1>
-				<div id="address">
-					<p>434-962-3232 *
-						<a href="mailto:ms.wilson0712@gmail.com">ms.wilson0712@gmail.com</a></p>
 				</div>
-		</div>
+	    </div>
 
-		<div style="float: right;" class="right.column">
-		</div>
+	    <div class="col-sm-7 transbox">
+				<h3>Summary</h3>
+				<h3>Training and Certifications</h3>
+				<h3>Education</h3>
+				<h3>Employment</h3>
+	    </div>
 
-	</body>
+	  </div>
+	</div>
+</body>
 </html>
