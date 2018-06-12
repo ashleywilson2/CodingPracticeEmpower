@@ -34,6 +34,7 @@ h1 {
 	font-style: bold;
 	font-size: 48px;
 	color:  rgb(185, 122, 86);
+	text-align: center;
 }
 
 h2 {
@@ -46,7 +47,16 @@ h3 {
 	color: rgb(185, 122, 86);
 }
 
+p {
+	font-family: "Raleway", sans-serif;
+	color: black;
+}
+
 img {
 	border-radius: 25%;
 	width: 300;
+}
+
+#contact {
+	text-align: center;
 }
