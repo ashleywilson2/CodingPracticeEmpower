@@ -2,9 +2,6 @@
 var rootURL = 'https://www.timeanddate.com/moon/phases';
 
 function initMoonPhase(){
-
-
-
   $('#moon-phases').click(function(){
     var locationRawCity = $("#location-city").val();
     var locationRawCountry = $('#location-country').val();
@@ -20,8 +17,4 @@ function initMoonPhase(){
       $("#location-country").val("");
     });
   });
-
 };
-
-
-//$(imageUrl).replace('c.tadst.com', 'www.timeanddate.com');
