@@ -22,4 +22,27 @@ h3 {
 
 #moon-phases {
   font-family: "Rock Salt",cursive;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  padding: 10px;
+  border-radius: 50%;
+  border-color: white;
+}
+
+#moon-phases:hover{
+  font-family: "Rock Salt",cursive;
+  background-color: white;
+  color: #9e3b7e;
+  outline-color: #9e3b7e;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.display-results {
+  background-color: white;
+  justify-content: center;
+}
+
+#display-here {
+
 }
