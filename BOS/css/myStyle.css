@@ -39,9 +39,8 @@ h3 {
 }
 
 .display-results {
-  background-color: white;
+
   justify-content: center;
-  margin: 10% 10%;
 }
 
 .display-input {
@@ -50,5 +49,13 @@ h3 {
 
 #display-here {
   font-family: "Titillium Web", sans-serif;
-  margin: 10% 10%;
+  margin: 2% 10% 10% 10%;
+}
+
+#city-country {
+  border: rgb(85,85,85) solid 3px;
+  padding: 5%;
+  text-align: center;
+  background-color: rgb(85,85,85);
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }

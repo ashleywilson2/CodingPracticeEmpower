@@ -3,8 +3,9 @@ var rootURL = 'https://www.timeanddate.com/moon/phases';
 
 function initMoonPhase(){
 
-  $('#moon-phases').click(function(){
 
+
+  $('#moon-phases').click(function(){
     var locationRawCity = $("#location-city").val();
     var locationRawCountry = $('#location-country').val();
     $("#city-country").html(locationRawCity + ", " + locationRawCountry);
