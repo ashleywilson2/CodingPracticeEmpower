@@ -1,0 +1,25 @@
+/* stylesheet for template */
+body{
+  background-image: url("../images/galaxy.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+h1 {
+  font-family: "Rock Salt",cursive;
+  color: white;
+}
+
+h3 {
+  font-family: "Titillium Web", sans-serif;
+  color: white;
+}
+
+.header {
+  margin: 5% 0;
+  justify-content: center;
+}
+
+#moon-phases {
+  font-family: "Rock Salt",cursive;
+}
