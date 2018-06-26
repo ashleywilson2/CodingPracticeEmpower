@@ -1,0 +1,36 @@
+Pattern Matching - 1:
+Which of the following will match?
+– a = [1, 2, 3] --MATCH
+– a = 4 --MATCH
+– 4 = a --MATCH
+– [a, b] = [ 1, 2, 3 ] --DOES NOT MATCH:  error message
+      a 1x2 array can't match a 1x3 array
+– a = [ [ 1, 2, 3 ] ]  --MATCH
+– [a] = [ [ 1, 2, 3 ] ] --MATCH
+– [[a]] = [ [ 1, 2, 3 ] ] --DOES NOT MATCH:  error message
+      stating that the first element of the array is equal to all three elements of the second array (I think)
+
+Pattern Matching - 2:
+Which of the following will match?
+– [ a, b, a ] = [ 1, 2, 3 ] --DOES NOT MATCH
+– [ a, b, a ] = [ 1, 1, 2 ] --DOES NOT MATCH
+– [ a, b, a ] = [ 1, 2, 1 ] --MATCH
+
+Pattern Matching - 3:
+The variable a is bound to the value 2. Which of the following will match?
+– [ a, b, a ] = [ 1, 2, 3 ] --DOES NOT MATCH
+– [ a, b, a ] = [ 1, 1, 2 ] --DOES NOT MATCH
+– a = 1 --MATCHES because reassigns the variable(?)
+– ^a = 2 --MATCHES because a is bound to 2
+– ^a = 1 --DOES NOT MATCH
+– ^a = 2 - a --DOES NOT MATCH
+
+However, if I type it into iex like row for row, we come back with:
+iex> a = 1
+1  --MATCH
+iex> ^a = 2
+:Error --DOES NOT MATCH
+iex> ^a = 1
+1  --MATCH
+iex> ^a = 2 - a
+1
