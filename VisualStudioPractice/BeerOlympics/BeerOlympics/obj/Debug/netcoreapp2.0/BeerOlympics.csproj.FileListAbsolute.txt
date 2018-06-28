@@ -1,0 +1,11 @@
+C:\Projects\Empower\CodingPracticeEmpower\VisualStudioPractice\BeerOlympics\BeerOlympics\bin\Debug\netcoreapp2.0\BeerOlympics.deps.json
+C:\Projects\Empower\CodingPracticeEmpower\VisualStudioPractice\BeerOlympics\BeerOlympics\bin\Debug\netcoreapp2.0\BeerOlympics.runtimeconfig.json
+C:\Projects\Empower\CodingPracticeEmpower\VisualStudioPractice\BeerOlympics\BeerOlympics\bin\Debug\netcoreapp2.0\BeerOlympics.runtimeconfig.dev.json
+C:\Projects\Empower\CodingPracticeEmpower\VisualStudioPractice\BeerOlympics\BeerOlympics\bin\Debug\netcoreapp2.0\BeerOlympics.dll
+C:\Projects\Empower\CodingPracticeEmpower\VisualStudioPractice\BeerOlympics\BeerOlympics\obj\Debug\netcoreapp2.0\BeerOlympics.csprojAssemblyReference.cache
+C:\Projects\Empower\CodingPracticeEmpower\VisualStudioPractice\BeerOlympics\BeerOlympics\obj\Debug\netcoreapp2.0\BeerOlympics.csproj.CoreCompileInputs.cache
+C:\Projects\Empower\CodingPracticeEmpower\VisualStudioPractice\BeerOlympics\BeerOlympics\obj\Debug\netcoreapp2.0\BeerOlympics.AssemblyInfoInputs.cache
+C:\Projects\Empower\CodingPracticeEmpower\VisualStudioPractice\BeerOlympics\BeerOlympics\obj\Debug\netcoreapp2.0\BeerOlympics.AssemblyInfo.cs
+C:\Projects\Empower\CodingPracticeEmpower\VisualStudioPractice\BeerOlympics\BeerOlympics\bin\Debug\netcoreapp2.0\BeerOlympics.pdb
+C:\Projects\Empower\CodingPracticeEmpower\VisualStudioPractice\BeerOlympics\BeerOlympics\obj\Debug\netcoreapp2.0\BeerOlympics.dll
+C:\Projects\Empower\CodingPracticeEmpower\VisualStudioPractice\BeerOlympics\BeerOlympics\obj\Debug\netcoreapp2.0\BeerOlympics.pdb

@@ -1,0 +1,1 @@
+{"Name":"Trafton","IndScore":25,"TeamName":"Murica","TeamScore":100,"FavObstacle":"Shotgun N Cornhole"}
