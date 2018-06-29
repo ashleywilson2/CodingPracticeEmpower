@@ -1,0 +1,54 @@
+<!--still need to make sure that same card isn't produced twice in one hand--><!--DONE-->
+<!--Find the bug in the For loop-->
+
+<html>
+  <head>
+    <script>
+
+      cardNumber = 0;
+      pickedCards = [];
+
+      function getRandomCard()
+      {
+        var CardFlip = Math.floor(Math.random() * 52) + 1;
+        return CardFlip + ".jpg";
+      }
+
+      function showCard()
+      {
+        cardNumber++;
+        var card = getRandomCard();
+        for (var i = 0; i < pickedCards.length; i++) {
+          if (card == pickedCards[i]) {
+            card = getRandomCard();
+          }
+        }
+        pickedCards.push(card);
+        document.getElementById('CardFace'+ cardNumber).src = card;
+      }
+
+    </script>
+  </head>
+
+  <body>
+    <input type="button" onclick="showCard();" value="Flip A Card"/>
+
+    <table>
+      <tr>
+        <th>Card 1</th>
+        <th>Card 2</th>
+        <th>Card 3</th>
+        <th>Card 4</th>
+        <th>Card 5</th>
+      </tr>
+
+      <tr>
+        <td><img src="" id="CardFace1"/></td>
+        <td><img src="" id="CardFace2"/></td>
+        <td><img src="" id="CardFace3"/></td>
+        <td><img src="" id="CardFace4"/></td>
+        <td><img src="" id="CardFace5"/></td>
+      </tr>
+    </table>
+  </body>
+</html>
