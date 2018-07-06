@@ -3,17 +3,15 @@
 
 <html>
   <head>
+    <link href="stylesheet.css" type="text/css" rel="stylesheet">
     <script>
-
       cardNumber = 0;
       pickedCards = [];
-
       function getRandomCard()
       {
         var CardFlip = Math.floor(Math.random() * 52) + 1;
         return CardFlip + ".jpg";
       }
-
       function showCard()
       {
         cardNumber++;
@@ -26,14 +24,13 @@
         pickedCards.push(card);
         document.getElementById('CardFace'+ cardNumber).src = card;
       }
-
     </script>
   </head>
 
   <body>
     <input type="button" onclick="showCard();" value="Flip A Card"/>
 
-    <table>
+    <table class="table">
       <tr>
         <th>Card 1</th>
         <th>Card 2</th>

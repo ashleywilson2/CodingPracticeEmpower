@@ -1,0 +1,29 @@
+body {
+  background-color: #CF9893;
+  color: #3B3B58;
+}
+
+#firstParagraph {
+  font-style: italic;
+}
+
+#thirdParagraph {
+  font-style: italic;
+}
+
+#span1 {
+  font-size: 20pt;
+}
+
+#span2 {
+  background-color: black;
+  color: white;
+}
+
+#hoverDiv:hover {
+  background-color: #A96DA3;
+  color: white;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=style.css.map */
