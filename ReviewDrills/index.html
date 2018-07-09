@@ -12,25 +12,30 @@
   <script src="js/toastr.min.js" type="text/javascript"></script>
   <script src="js/script.js" type="text/javascript"></script>
   <script>
+    //need to clear the text box after clicking the button
+    //need to erase previous toastr popups before displaying a new one on click
+    //figure out how to get jQuery on script.js
+    //put more vars in script to eliminate duplicate code
     $(document).on('change', '#toastrColor', function(){
       var sel_opt = $(this).val();
+      var text_entry = $('#textbox1').val();
 
       if (sel_opt == 1) {
         $(document).on('click', '#textToPopup', function(evt){
           evt.preventDefault();
-          toastr.warning($('#textbox1').val());
+          toastr.warning(text_entry, "Warning!");
         });
       }
       if (sel_opt == 2) {
         $(document).on('click', '#textToPopup', function(evt){
           evt.preventDefault();
-          toastr.success($('#textbox1').val());
+          toastr.success(text_entry, "Success!");
         });
       }
       if (sel_opt == 3) {
         $(document).on('click', '#textToPopup', function(evt){
           evt.preventDefault();
-          toastr.error($('#textbox1').val());
+          toastr.error(text_entry, "Error!");
         });
       }
     });
@@ -67,6 +72,20 @@
     <div class="form-group col-2">
       <button type="submit" class="btn btn-primary" id="textToPopup">
         Enter
+      </button>
+    </div>
+    <div class="form-group col-4">
+      <label for="backgroundColor">Set Background Color</label>
+      <select id="backgroundColor" class="form-control">
+        <option selected>Pick a color...</option>
+        <option value="4">Black</option>
+        <option value="5">White</option>
+        <option value="6">Teal</option>
+      </select>
+    </div>
+    <div class="form-group col-2">
+      <button type="submit" class="btn btn-primary" id="setBgC">
+        Set
       </button>
     </div>
   <form>
